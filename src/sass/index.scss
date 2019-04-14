@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import 'foundation/foundation';
+@import 'layout/function';
+// --------------------------------------------------------
+/* Container Style*/
+// --------------------------------------------------------
+.main-wrap{
+  width:100%;
+  overflow-x: hidden;
+  border:2px solid red;
+  height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img{
+    width:50%;
+  }
+  h2{
+    margin-top:50px;
+  }
+
+}// end main wrap
+
+// --------------------------------------------------------
+/* Animate Style*/
+// --------------------------------------------------------

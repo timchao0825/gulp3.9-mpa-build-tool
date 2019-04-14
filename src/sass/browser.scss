@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import 'foundation/foundation';
+@import 'layout/function';
+// --------------------------------------------------------
+/* Container Style*/
+// --------------------------------------------------------
+
+body{
+  background: #e7e7e7; 
+  font-family: 微軟正黑體;
+}
+.alert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  margin: 100px auto  0 auto;
+  position: relative;
+  padding: 30px; 
+  font-size: 15px;
+  transition: opacity 300ms ease-out;
+  background-color: #ffffff;
+  border-color: #d6d6d6;
+  color: #052e2d;
+  clear: both;
+  overflow: hidden;
+  max-width: 700px;
+}
+.alert-box h5 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.alert-box p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.browser-list{
+  width: 80%;
+  padding: 0;
+  margin: 30px auto 30px auto;
+}
+.browser-list li{
+  width: 25%;
+  float: left;
+}
+.browser-list li a{
+  outline: 0;
+  display: block;
+}
+.browser-list li a:hover{
+   /* IE 8 */
+   zoom: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+  /* Netscape */
+  -moz-opacity: 0.5;
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+  /* Good browsers */
+  opacity: 0.5;
+}
+.browser-list li img{
+  max-width: 100%;
+}
+.no-bullet {
+  list-style: none;
+}

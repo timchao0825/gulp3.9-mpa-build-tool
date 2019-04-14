@@ -1,0 +1,29 @@
+# Dependency directory
+node_modules/
+
+# vs code
+.vscode
+
+# dist file
+dist
+dist/css
+dist/js
+dist/json
+dist/*.html
+dist/**/*.map
+dist/images
+dist/favicon.*
+dist/fonts/icons
+src/sass/vendor/font/_icons.scss
+
+# Misc (hidden file)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.sass-cache
+__MACOSX
+package-lock.json

@@ -1,0 +1,20 @@
+// 通用元素-----------------------
+// 內容範圍
+%content_w {
+  width: 1420px;
+  margin: 0 auto;
+  position: relative;
+  display: block; // @extend %content_w;
+  @include breakpoint (xxlarge down) {
+    width: 1420px;
+  }
+  @include breakpoint (xlarge down) {
+    width: 1080px;
+  }
+  @include breakpoint (large down) {
+    width: 950px;
+  }
+  @include breakpoint (medium down) {
+    width: calc(100% - 30px);
+  }
+}
