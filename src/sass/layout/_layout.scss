@@ -25,46 +25,19 @@ $skin:#f9f5f3;
 // @include breakpoint(large down){}
 // @include breakpoint(medium down){}
 // @include breakpoint(small down){}
-
-body{
-	position: relative;
-	overflow-x:hidden;
-	overflow-y:scroll;
-}
-
-/* Reset Select */
-select , legend , input,[type="color"], [type="date"], [type="datetime-local"], [type="datetime"], [type="email"], [type="month"], [type="number"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="time"], [type="url"], [type="week"], textarea{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  outline: 0;
-  box-shadow: none;
-	background-image: none;
-	padding:0;
-	margin:0;
-}
-// Custom SVG IMG
-.svg{img{width:100%;}}
-
-// smooth scroll
-body, .smooth-container { scroll-behavior: smooth }
-
 .mg0{margin:0 !important;}
-
 .lh1{line-height: 1;}
-
 .ls1{letter-spacing: 1px;}
 .ls2{letter-spacing: 2px;}
 .ls3{letter-spacing: 3px;}
-
 .uptxt{text-transform: uppercase;}
-
 // --------------------------------------------------------
 /* Container Style*/
 // --------------------------------------------------------
 body{
   position: relative;
+  overflow-x:hidden;
+  overflow-y:scroll;
   background:$skin;
   color:$color-black;
 }
@@ -92,11 +65,3 @@ p , option , span , button , span{
   &.banner-txt{font-size:4rem;}
   &.en { font-family: 'Arial' , 'Noto Sans TC' , sans-serif , 'Microsoft JhengHei'; }
 }
-h1,h2,h3,h4,h5,h6{margin:0;letter-spacing:1px;line-height:150%;color:#6c5a48;&.bold{font-weight:bold;}}
-p  {font-size:20px; @include breakpoint (large down) {font-size:16px;} }
-h1 {font-size:40px; @include breakpoint (large down) {font-size:32px;} }
-h2 {font-size:36px; @include breakpoint (large down) {font-size:20px;} }
-h3 {font-size:24px; @include breakpoint (large down) {font-size:18px;} }
-h4 {font-size:20px; @include breakpoint (large down) {font-size:16px;} }
-h5 {font-size:18px; @include breakpoint (large down) {font-size:14px;} }
-h6 {font-size:16px; @include breakpoint (large down) {font-size:12px;} }
