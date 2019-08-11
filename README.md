@@ -61,7 +61,15 @@
 // NPM version V6.4.1
 // Gulp version v3.9.1
 // Gulp CLI version v3.9.1
-// -------------------------
+// --------------------------------------------------
+// Gulp.js 2019/07修正列表
+1.當 pug 頁面到達一定數量的時候，編譯速度將會大幅降低
++	修改gulp-pug的task編譯方式，以及調整pug layout編譯方式
+2.JS 檔案 撰寫錯誤的時候將會停止JS編譯問題
++	調整Babel編譯順序
+3.windows環境下，pngquant圖片壓縮會有 libpng 未下載錯誤訊息，並無法壓縮png檔案
++ npm imagemin pngquant 更新至 8.0.0版本後 windows 可以成功下載
+// --------------------------------------------------
 1.棄用gulp-ruby-sass，改使用gulp-sass
 +	新增gulp-sass^4.0.2
 -	移除gulp-ruby-sass（作者即將棄用；並不再更新）
